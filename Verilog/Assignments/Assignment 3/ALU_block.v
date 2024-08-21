@@ -1,7 +1,7 @@
 //module decleration
 module ALU_block(
-  input wire [15:0] A,
-  input wire [15:0] B,
+  input wire [7:0] A,
+  input wire [7:0] B,
   input wire [3:0] ALU_FUN,
   input wire clk,
   output reg [15:0] ALU_OUT,
